@@ -1,9 +1,9 @@
+<p align="center">
+  <img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon" width="100%">
+</p>
+
 
 # Projet PI-THON
-
-<p align="center">
-  <img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon" width="200"/>
-</p>
 
 ## 📖 Table des matières
 
