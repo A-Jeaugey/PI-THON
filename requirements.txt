@@ -1,0 +1,3 @@
+pygame
+pygame_textinput
+gmpy2==2.2.0
