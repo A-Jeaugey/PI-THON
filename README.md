@@ -152,6 +152,6 @@ Ce projet est sous licence **GPL v3+**. Vous pouvez l’utiliser, le modifier et
 
 ## Auteurs
 
-- Arthur Jeaugey || jeaugeyarthur@gmail.com || Instagram para.bellum._
+- Arthur Jeaugey || jeaugeyarthur@gmail.com || Instagram [para.bellum._](https://www.instagram.com/para.bellum._/)
 - Paul Chevasson
 - Samuel Mopty
