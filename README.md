@@ -1,9 +1,7 @@
 <p align="center">
-  <img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon" width="100%">
+  <a href = "https://tube-sciences-technologies.apps.education.fr/w/iGFmQFagKMJLAVNoa2pEtf"><img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon, lien vers la vidéo" width="100%"></a>
+  <img src="data/img_video.png" alt="image incitant à cliquer sur la vidéo" width="100%">
 </p>
-
-[![Voir la vidéo](./data/miniature_video_pi_thon.png)](https://tube-sciences-technologies.apps.education.fr/w/iGFmQFagKMJLAVNoa2pEtf)
-
 
 # PI-THON
 
