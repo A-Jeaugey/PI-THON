@@ -2,8 +2,10 @@
   <img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon" width="100%">
 </p>
 
+[![Voir la vidéo](./data/miniature_video_pi_thon.png)](https://tube-sciences-technologies.apps.education.fr/w/iGFmQFagKMJLAVNoa2pEtf)
 
-# Projet PI-THON
+
+# PI-THON
 
 ## 📖 Table des matières
 
