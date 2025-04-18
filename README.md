@@ -3,7 +3,7 @@
   <h3 align="center">⬆️⬆️⬆️<br><br>CLIQUE SUR LE LOGO POUR VOIR LA VIDÉO</h3>
 </p>
 
-# PI-THON – Estimation de π en Python avec Pygame
+# PI-THON
 
 ## 📖 Table des matières
 
