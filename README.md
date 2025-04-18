@@ -3,8 +3,6 @@
   <h3 align="center">⬆️⬆️⬆️<br><br>CLIQUE SUR LE LOGO POUR VOIR LA VIDÉO</h3>
 </p>
 
-# PI-THON
-
 ## 📖 Table des matières
 
 - [Présentation](#présentation)
