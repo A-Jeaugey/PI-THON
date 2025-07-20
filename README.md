@@ -138,7 +138,7 @@ The **PI-THON** project uses the following libraries for interactive display and
 ---
 ## Documentation
 
-- [Project structure](docs/structure_du_projet.md)
+- [Project structure](docs/project_structure.md)
 
 ---
 ## License
