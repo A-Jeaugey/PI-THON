@@ -1,3 +1,9 @@
+![French Version](https://img.shields.io/badge/Language-French-blue)
+![English Version](https://img.shields.io/badge/Available%20on-EN%20Branch-green)
+
+⚠️ **This is the French version of PI-THON.**
+👉 For the English version, check the `EN` branch!
+
 <p align="center">
   <a href = "https://tube-sciences-technologies.apps.education.fr/w/iGFmQFagKMJLAVNoa2pEtf"><img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon, lien vers la vidéo" width="100%"></a>
   <h3 align="center">⬆️⬆️⬆️<br><br>CLIQUEZ SUR LE LOGO POUR VOIR LA VIDÉO</h3>
