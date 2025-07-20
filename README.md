@@ -19,7 +19,7 @@
 
 **PI-THON** is a project to estimate the value of **π** in Python using multiple mathematical and algorithmic methods. The goal is to compare these methods in terms of **speed, precision, and convergence**, while offering an **interactive visualization** with **Pygame**.
 
-This project was developed as part of the **NSI Trophies 2025**.
+This project was developed as part of the "**Trophées NSI 2025**".
 
 ---
 ## Goals
