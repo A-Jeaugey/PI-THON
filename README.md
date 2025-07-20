@@ -1,5 +1,5 @@
-[![French Version](https://img.shields.io/badge/Language-French-blue)](https://github.com/A_Jeaugey/PI-THON/tree/main) 
-[![English Version](https://img.shields.io/badge/English%20Version-Click%20Here-green)](https://github.com/A_Jeaugey/PI-THON/tree/EN)
+[![French Version](https://img.shields.io/badge/Language-French-blue)](https://github.com/A-Jeaugey/PI-THON/tree/main) 
+[![English Version](https://img.shields.io/badge/English%20Version-Click%20Here-green)](https://github.com/A-Jeaugey/PI-THON/tree/EN)
 
 ⚠️ **Ceci est la version française de PI-THON.** (**This is the French version of PI-THON.**)
 
