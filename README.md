@@ -2,6 +2,7 @@
 [![English Version](https://img.shields.io/badge/English%20Version-Click%20Here-green)](https://github.com/A_Jeaugey/PI-THON/tree/EN)
 
 ⚠️ **Ceci est la version française de PI-THON.** (**This is the French version of PI-THON.**)
+
 👉 Pour la version anglaise, allez voir la branche `EN` ! (For the English version, check the `EN` branch!)
 
 <p align="center">
