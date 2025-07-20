@@ -1,73 +1,71 @@
-# 📂 Structuration du Projet PI-THON
+# 📦 Structure du projet PI-THON (🇫🇷)
 
-Ce document décrit l'organisation des fichiers et dossiers de **PI-THON**
+Ce document décrit l’organisation du projet PI-THON, structuré avec deux branches séparées pour chaque langue.
 
 ---
 
-## 📌 Structure Générale
+## 🗂️ Organisation générale
 
-Le projet est organisé de la manière suivante :
+- **Branche `main`** → Version française (projet original)
+- **Branche `EN`** → Version anglaise (projet traduit)
+
+Chaque branche contient son propre code source, sa documentation et ses ressources.
+
+---
+
+## 📌 Structure typique d'une branche
 
 ```
 pi-thon/
-│── README.md                  # Documentation principale
-│── licence.txt                # Licence du projet (GPL v3+)
-│── presentation.pdf           # Présentation synthétique du projet (4 pages)
-│── requirements.txt           # Liste des bibliothèques Python nécessaires
-│
-├── sources/                   # 📌 Code source du projet
-│   ├── main.py                # Fichier principal du programme
-│   ├── affichage.py           # Gestion de l'affichage avec Pygame
-│   ├── utils.py               # Fonctions utilitaires
-│   ├── methodes_estimation/   # 📌 Implémentation des différentes méthodes d'estimation de π
-│   │   ├── monte_carlo.py
-│   │   ├── collisions.py
-│   │   ├── formule_de_machin.py
-│   │   ├── pendule.py
-│   │   ├── buffon.py
-│   │   ├── archimede.py
-│   │   ├── nilakantha.py
-│   │   ├── approximation_integration.py
-│   │   ├── ramanujan.py
-│   │   ├── gauss.py
-│   │   ├── leibniz.py
-│   │   ├── chudnovsky.py
-│   │   ├── borwein.py
-│
-├── docs/                      # 📌 Documentation technique
-│   ├── structure_du_projet.md # Explication de la structuration du projet
-│
-├── data/                      # 📌 Ressources et fichiers générés
-│   ├── pi_reference.txt       # Décimales de référence pour vérification
-│   ├── logo.png               # Logo du projet
-│   ├── Iosevka_fixed.ttf      # Police utilisée dans l'interface
-│   ├── pi_estimations/        # 📌 Résultats générés par le programme (fichiers .txt)
+├── README.md               # README principal (FR ou EN selon la branche)
+├── sources/                # Code source
+│   ├── main.py
+│   ├── affichage.py (ou display.py)
+│   ├── utils.py
+│   └── methodes_estimation/
+│       ├── monte_carlo.py
+│       ├── collisions.py
+│       ├── formule_de_machin.py (ou machin_formula.py)
+│       ├── pendule.py
+│       ├── buffon.py
+│       ├── archimede.py
+│       ├── nilakantha.py
+│       ├── approximation_integration.py
+│       ├── ramanujan.py
+│       ├── gauss.py
+│       ├── leibniz.py
+│       ├── chudnovsky.py
+│       ├── borwein.py
+├── docs/                   # Documentation technique
+│   └── structure_du_projet.md (ou project_structure.md)
+├── data/                   # Ressources et fichiers générés
+│   ├── pi_reference.txt
+│   ├── logo.png
+│   ├── Iosevka_fixed.ttf
+│   └── pi_estimations/
+├── licence.txt             # Licence GPL v3+
+├── requirements.txt        # Bibliothèques Python nécessaires
+├── presentation.pdf        # Présentation synthétique du projet
 ```
 
 ---
 
-## 📌 Explication des Dossiers
+## 📌 Détails
 
-### **📁 `sources/` – Code source du projet**
-Ce dossier contient **tout le code Python**, y compris **`main.py`**, qui est le point d’entrée du programme.  
+- La **branche EN** est une traduction complète du projet en anglais :
+  - Interface utilisateur,
+  - Commentaires dans le code,
+  - Documentation.
 
-📌 **Organisation interne :**
-- `main.py` → Fichier principal du programme.
-- `affichage.py` → Gestion de l'interface et du menu avec **Pygame**.
-- `utils.py` → Fonctions utilitaires (gestion des événements, enregistrement des résultats, etc.).
-- `methodes_estimation/` → Implémentation des différentes **méthodes d'estimation de π**.
-
----
-
-### **📁 `docs/` – Documentation technique**
-Ce dossier contient **les documents explicatifs** du projet :
-- `structure_du_projet.md` → Présentation de l'organisation des fichiers et leur rôle.
+- Les deux branches partagent la même logique et structure de code,
+  mais sont maintenues séparément pour plus de clarté et de simplicité.
 
 ---
 
-### **📁 `data/` – Ressources et fichiers générés**
-Ce dossier contient :
-- `pi_reference.txt` → Décimales de référence pour vérifier l'exactitude des calculs.
-- `logo.png` → Logo utilisé pour pygame qui est juste une image de pi, ce n'est pas le vrai logo du projet.
-- `Iosevka_fixed.ttf` → Police utilisée pour l'affichage.
-- `pi_estimations/` → Contient **les fichiers `.txt` générés par le programme**, stockant les valeurs de π calculées.
+## 🚀 Objectif
+
+Cette structure par branches permet de :
+
+✅ Garder les versions linguistiques indépendantes,  
+✅ Éviter de tout dupliquer dans une seule branche,  
+✅ Faciliter l’utilisation et les contributions internationales.
