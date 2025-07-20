@@ -1,8 +1,9 @@
 [![English Version](https://img.shields.io/badge/Language-English-green)](https://github.com/TON_USER/TON_REPO/tree/EN) 
-[![French Version](https://img.shields.io/badge/Available%20on-Main%20Branch-blue)](https://github.com/TON_USER/TON_REPO/tree/main)
+[![French Version](https://img.shields.io/badge/French%20Version-Click%20Here-blue)](https://github.com/TON_USER/TON_REPO/tree/main)
 
 ⚠️ **This is the English version of PI-THON.**  
 👉 For the French version, check the `main` branch!
+
 
 
 <p align="center">
