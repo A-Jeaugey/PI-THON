@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://tube-sciences-technologies.apps.education.fr/w/iGFmQFagKMJLAVNoa2pEtf"><img src="data/logo_pi_thon.jpg" alt="Pi-Thon Logo, link to video" width="100%"></a>
-  <h3 align="center">⬆️⬆️⬆️<br><br>CLICK ON THE LOGO TO WATCH THE VIDEO</h3>
+  <h3 align="center">⬆️⬆️⬆️<br><br>CLICK ON THE LOGO TO WATCH THE VIDEO</h3> (french version only !)
 </p>
 
 ## 📖 Table of Contents
