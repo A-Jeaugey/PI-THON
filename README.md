@@ -3,7 +3,7 @@
 
 ⚠️ **Ceci est la version française de PI-THON.** (**This is the French version of PI-THON.**)
 
-👉 Pour la version anglaise, allez voir la branche `EN` ! (For the English version, check the `EN` branch!)
+👉 Pour la version en anglais, allez voir la branche `EN` ! (For the English version, check the `EN` branch!)
 
 <p align="center">
   <a href = "https://tube-sciences-technologies.apps.education.fr/w/iGFmQFagKMJLAVNoa2pEtf"><img src="data/logo_pi_thon.jpg" alt="Logo Pi-Thon, lien vers la vidéo" width="100%"></a>
