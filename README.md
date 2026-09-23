@@ -63,12 +63,31 @@ Enfin, ce programme peut s'avérer utile en tant que générateur de fichiers te
 
 ### Installation des dépendances
 
-Assurez-vous d'avoir **Python 3.10+** installé.  
+Assurez-vous d'avoir **Python 3.10 à 3.13** installé.  
 Puis, installez les bibliothèques nécessaires avec :
 
 ```bash
 pip install -r requirements.txt
 ```
+
+> **Python 3.14 :** `pygame` ne fournit pas de version précompilée pour Python 3.14. `pip` le compile alors depuis les sources, souvent sans le support des images PNG, et le programme s'arrête au lancement avec l'erreur `pygame.error: File is not a Windows BMP file`.  
+> Deux solutions :
+>
+> - Utiliser Python 3.13 (par exemple avec [uv](https://docs.astral.sh/uv/)) :
+>
+>   ```bash
+>   uv venv --python 3.13 .venv
+>   source .venv/bin/activate
+>   uv pip install -r requirements.txt
+>   ```
+>
+> - Ou rester en Python 3.14 et remplacer `pygame` par `pygame-ce`, un fork compatible qui fournit des versions précompilées :
+>
+>   ```bash
+>   pip uninstall -y pygame
+>   pip install pygame-ce "gmpy2>=2.2.2"
+>   pip install --no-deps pygame_textinput
+>   ```
 
 ### Lancer le programme
 
