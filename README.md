@@ -63,31 +63,19 @@ Enfin, ce programme peut s'avérer utile en tant que générateur de fichiers te
 
 ### Installation des dépendances
 
-Assurez-vous d'avoir **Python 3.10 à 3.13** installé.  
+Assurez-vous d'avoir **Python 3.10 ou plus récent** installé (testé de 3.10 à 3.14).  
 Puis, installez les bibliothèques nécessaires avec :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **Python 3.14 :** `pygame` ne fournit pas de version précompilée pour Python 3.14. `pip` le compile alors depuis les sources, souvent sans le support des images PNG, et le programme s'arrête au lancement avec l'erreur `pygame.error: File is not a Windows BMP file`.  
-> Deux solutions :
+> **Mise à jour depuis une ancienne installation :** le projet utilise désormais `pygame-ce` à la place de `pygame`. Les deux fournissent le même module `pygame` et ne doivent pas être installés en même temps. Si `pygame` est déjà installé dans votre environnement, désinstallez-le avant d'installer les dépendances :
 >
-> - Utiliser Python 3.13 (par exemple avec [uv](https://docs.astral.sh/uv/)) :
->
->   ```bash
->   uv venv --python 3.13 .venv
->   source .venv/bin/activate
->   uv pip install -r requirements.txt
->   ```
->
-> - Ou rester en Python 3.14 et remplacer `pygame` par `pygame-ce`, un fork compatible qui fournit des versions précompilées :
->
->   ```bash
->   pip uninstall -y pygame
->   pip install pygame-ce "gmpy2>=2.2.2"
->   pip install --no-deps pygame_textinput
->   ```
+> ```bash
+> pip uninstall -y pygame pygame_textinput
+> pip install -r requirements.txt
+> ```
 
 ### Lancer le programme
 
@@ -149,8 +137,8 @@ Le projet **PI-THON** repose sur les bibliothèques suivantes pour l'affichage i
 | Technologie | Description |
 |------------|------------|
 | **Python 3.10+** | Langage principal du projet, utilisé pour implémenter les méthodes d'estimation de π. |
-| **Pygame** | Bibliothèque permettant de gérer l'affichage et l'interactivité avec l'utilisateur. |
-| **pygame-textinput** | Extension de Pygame permettant la saisie de texte dans l'interface utilisateur. |
+| **Pygame (pygame-ce)** | Bibliothèque permettant de gérer l'affichage et l'interactivité avec l'utilisateur. On utilise `pygame-ce`, la version maintenue par la communauté, qui s'importe aussi avec `import pygame`. |
+| **pygame-textinput** | Extension de Pygame permettant la saisie de texte dans l'interface utilisateur. Elle est incluse directement dans `sources/pygame_textinput/` (licence MIT). |
 | **gmpy2** | Bibliothèque optimisée pour les calculs haute précision, utilisée notamment dans les algorithmes comme Gauss-Legendre, Chudnovsky et Borwein. |
 
 #### 📌 Pourquoi ces technologies ?

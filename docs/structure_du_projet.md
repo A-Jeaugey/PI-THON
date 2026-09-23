@@ -36,6 +36,7 @@ pi-thon/
 │       ├── leibniz.py
 │       ├── chudnovsky.py
 │       ├── borwein.py
+│   └── pygame_textinput/   # Champ de saisie de texte (bibliothèque MIT intégrée)
 ├── docs/                   # Documentation technique
 │   └── structure_du_projet.md (ou project_structure.md)
 ├── data/                   # Ressources et fichiers générés

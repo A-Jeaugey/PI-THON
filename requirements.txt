@@ -1,3 +1,2 @@
-pygame
-pygame_textinput
-gmpy2==2.2.0
+pygame-ce>=2.5.5
+gmpy2>=2.2.2
